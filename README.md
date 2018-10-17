@@ -20,6 +20,7 @@ $ docker run --privileged -d -p 3000:3000 -p 3443:3443 --name haskell_server -v 
 
 ```
 # stack new project1
+# cd project1
 ```
 
 src/以下があるので、一度ビルドしておく
@@ -51,4 +52,9 @@ main = do
 # stack runghc app/Main.hs
 ```
 
+結果
+
+```
+"HelloWorld"
+```
 
